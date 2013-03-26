@@ -57,7 +57,6 @@
 \newlabel{multic}{{8}{3}}
 \citation{Ferns1}
 \citation{gpusift1}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{intrl}{{1a}{4}}
 \newlabel{sub@intrl}{{(a)}{a}}
 \newlabel{separ}{{1b}{4}}
@@ -95,7 +94,7 @@
 \newlabel{sub@eps1}{{(a)}{a}}
 \newlabel{eps2}{{5b}{6}}
 \newlabel{sub@eps2}{{(b)}{b}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \subref {eps1} Illustration of multilevel data aggregation. \subref {eps2} Illustration of complete shader chain for likelihood estimation. Shader 1 calculates Ferns and looks up premultiplied binary values in an auxiliary texture. Shader 2 aggregates outputs of Shader 1 into a single likelihood.\relax }}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  \subref {eps1} Illustration of multilevel data aggregation. Four RGB pixels are processed by first layer, resulting in the intermediate value (purple). The next shader in chain then processes four intermediate values, aggregating data from a total of 16 pixels. \subref {eps2} Illustration of complete shader chain for likelihood estimation. Shader 1 calculates Ferns and looks up premultiplied binary values in an auxiliary texture. Shader 2 aggregates outputs of Shader 1 into a single likelihood.\relax }}{6}}
 \newlabel{shaders}{{5}{6}}
 \bibstyle{plain}
 \bibdata{SVANew}
@@ -106,18 +105,15 @@
 \bibcite{Norma}{5}
 \bibcite{sift}{6}
 \bibcite{LBP}{7}
-\bibcite{Ferns1}{8}
-\bibcite{Pegasos}{9}
-\bibcite{Vapnik}{10}
-\bibcite{Mobi}{11}
-\bibcite{slam}{12}
 \newlabel{ts:scr1}{{6a}{7}}
 \newlabel{sub@ts:scr1}{{(a)}{a}}
 \newlabel{ts:scr2}{{6b}{7}}
 \newlabel{sub@ts:scr2}{{(b)}{b}}
 \newlabel{ts:scr3}{{6c}{7}}
 \newlabel{sub@ts:scr3}{{(c)}{c}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  \subref {ts:scr1} , \subref {ts:scr2} Weights and thresholded probabilitites encoded in two images for loading in mobile device. \subref {ts:scr3} Texture used for training.\relax }}{7}}
+\newlabel{ts:scr4}{{6d}{7}}
+\newlabel{sub@ts:scr4}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Weights and thresholded probabilitites encoded in two images (\subref {ts:scr1} and \subref {ts:scr2}) for loading in mobile device. Each square encodes two Ferns in red and green color channels. The length of each Fern is 10 bits, resulting in 32x32 square of two possible values, either 0 or the value of SVM coefficient corresponding to this Fern. \subref {ts:scr3} Texture used for training \subref {ts:scr1},\subref {ts:scr2}. \subref {ts:scr4} Sample of background used for training \subref {ts:scr1}, \subref {ts:scr2}.\relax }}{7}}
 \newlabel{TSamples1}{{6}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Resulting algorithm}{7}}
 \newlabel{ra}{{4.2}{7}}
@@ -125,6 +121,11 @@
 \newlabel{iresults}{{4.3}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions and future work}{7}}
 \newlabel{conclusion}{{5}{7}}
+\bibcite{Ferns1}{8}
+\bibcite{Pegasos}{9}
+\bibcite{Vapnik}{10}
+\bibcite{Mobi}{11}
+\bibcite{slam}{12}
 \bibcite{Seva}{13}
 \bibcite{Ferns2}{14}
 \newlabel{scre1}{{7a}{8}}
@@ -133,5 +134,5 @@
 \newlabel{sub@scre2}{{(b)}{b}}
 \newlabel{scre3}{{7c}{8}}
 \newlabel{sub@scre3}{{(c)}{c}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Screenshots of texture recognition algorithm in operation. \subref {scre1} , \subref {scre2} are results of using weighted Ferns trained on Figure \ref {s2}, \subref {scre3} uses method trained on Figure \ref {s5}. \relax }}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Screenshots of texture recognition algorithm in operation. \subref {scre1} , \subref {scre2} are results of using weighted Ferns trained on texture from Figure \ref {s2}, \subref {scre3} uses method trained on Figure \ref {s5}. \relax }}{8}}
 \newlabel{screenshots}{{7}{8}}

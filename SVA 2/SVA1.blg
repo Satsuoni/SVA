@@ -1,10 +1,4 @@
-This is BibTeX, Version 0.99cThe top-level auxiliary file: c:\SVA\SVA1.aux
-The style file: plain.bst
-Database file #1: SVA1.bib
-Name 1 in "H. Grabner, M. Grabner, and H. Bischof" has a comma at the end for entry OnlineBoost
-while executing---line 1049 of file plain.bst
-Name 1 in "H. Grabner, M. Grabner, and H. Bischof" has a comma at the end for entry OnlineBoost
-while executing---line 1090 of file plain.bst
-Warning--empty booktitle in SMO
-Warning--empty institution in Boostsvm
+This is BibTeX, Version 0.99cThe top-level auxiliary file: c:\ss\SVA\SVA 2\SVA1.aux
+I found no \bibdata command---while reading file c:\ss\SVA\SVA 2\SVA1.aux
+I found no \bibstyle command---while reading file c:\ss\SVA\SVA 2\SVA1.aux
 (There were 2 error messages)
